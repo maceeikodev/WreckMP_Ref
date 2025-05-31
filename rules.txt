@@ -1,0 +1,9 @@
+- don't put using wreckmp
+- call a method referencing wreckmp ONLY if you 100% certain it's present
+- don't use wreckmp types as 
+	- fields
+	- properties
+	- function parameters
+and in
+	- properties
+	- lambdas
