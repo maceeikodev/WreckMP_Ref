@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace WreckMP_Ref
 {
+    /// <summary>
+    /// Set of global properties and events.
+    /// </summary>
     public static class WreckMPGlobals
     {
         /// <summary>
@@ -11,7 +14,7 @@ namespace WreckMP_Ref
         /// </summary>
         public static bool IsMultiplayerSession => Environment.GetEnvironmentVariable("WreckMP-Present") != null;
         /// <summary>
-        /// Specifies whether the local player is the host of the session.
+        /// Specifies whether the local player is the host of the session. In singleplayer returns true
         /// </summary>
         public static bool IsHost
         {
@@ -22,7 +25,7 @@ namespace WreckMP_Ref
             }
         }
         /// <summary>
-        /// Get the Steam ID of the session host.
+        /// Get the Steam ID of the session host. In singleplayer returns 0
         /// </summary>
         public static ulong HostID
         {
@@ -33,7 +36,7 @@ namespace WreckMP_Ref
             }
         }
         /// <summary>
-        /// Get the Steam ID of the local player.
+        /// Get the Steam ID of the local player. In singleplayer returns 0
         /// </summary>
         public static ulong UserID
         {
@@ -44,7 +47,7 @@ namespace WreckMP_Ref
             }
         }
         /// <summary>
-        /// Get all players by their Steam ID.
+        /// Get all players by their Steam ID. In singleplayer returns null
         /// </summary>
         public static Dictionary<ulong, Player> Players
         {

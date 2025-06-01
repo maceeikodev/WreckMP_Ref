@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace WreckMP_Ref
 {
+    /// <summary>
+    /// A player that is connected to the session.
+    /// </summary>
     public class Player
     {
         ulong _steamID;

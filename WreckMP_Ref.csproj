@@ -38,13 +38,16 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\My Summer Car\mysummercar_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\My Summer Car\mysummercar_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="WreckMP">
-      <HintPath>..\maceeikodev\WreckMP\BeerMP\bin\Debug\WreckMP.dll</HintPath>
+      <HintPath>..\..\BeerMP\BeerMP-Remastered\BeerMP\bin\Debug\WreckMP.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameEvent.cs" />
+    <Compile Include="GameEventReader.cs" />
+    <Compile Include="GameEventWriter.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="WreckMPGlobals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
