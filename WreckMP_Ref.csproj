@@ -34,6 +34,9 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\My Summer Car\mysummercar_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="MSCLoader">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\My Summer Car\mysummercar_Data\Managed\MSCLoader.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicSyncedProperties.cs" />
     <Compile Include="GameEvent.cs" />
     <Compile Include="GameEventReader.cs" />
     <Compile Include="GameEventWriter.cs" />
@@ -56,6 +60,7 @@
     <Compile Include="NetVehicleDriverPivots.cs" />
     <Compile Include="OwnedRigidbody.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="SyncedProperty.cs" />
     <Compile Include="WreckMPGlobals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WreckMPUtils.cs" />
