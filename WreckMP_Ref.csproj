@@ -48,6 +48,8 @@
     <Compile Include="GameEvent.cs" />
     <Compile Include="GameEventReader.cs" />
     <Compile Include="GameEventWriter.cs" />
+    <Compile Include="NetRigidbodyManager.cs" />
+    <Compile Include="OwnedRigidbody.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="WreckMPGlobals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
