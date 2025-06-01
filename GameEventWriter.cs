@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace WreckMP_Ref
 {
+    /// <summary>
+    /// An object used to write data to the event body.
+    /// </summary>
     public class GameEventWriter : BinaryWriter
     {
         GameEvent gameEvent;
