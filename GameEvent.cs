@@ -90,7 +90,11 @@ namespace WreckMP_Ref
 
         void mp_callback(object reader)
         {
-            callback?.Invoke(reader);
+            var mp_reader = reader as WreckMP.GameEventReader;
+            var bytes = mp_reader.ReadBytes((int)(mp_reader.Length - mp_reader.BaseStream.Position));
+            
+            var ref_reader = new GameEventReader(mp_reader.sender, bytes);
+            callback?.Invoke(ref_reader);
         }
 
         void mp_sendEmpty(ulong target, bool safe)
