@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace WreckMP_Ref
+namespace WreckAPI
 {
     /// <summary>
     /// Rigidbody manager required to sync your rigidbodies.

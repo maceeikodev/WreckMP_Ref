@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace WreckMP_Ref
+namespace WreckAPI
 {
     /// <summary>
     /// Set of global properties and events.

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace WreckMP_Ref
+namespace WreckAPI
 {
     public class SyncedFloat : SyncedProperty<float>
     {

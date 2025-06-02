@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace WreckMP_Ref
+namespace WreckAPI
 {
     /// <summary>
     /// Helper class for a rigidbody with an owner.

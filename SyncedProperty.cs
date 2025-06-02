@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-namespace WreckMP_Ref
+namespace WreckAPI
 {
     /// <summary>
     /// Base class for synced properties. This class is abstract. For syncing custom types inherit this class to implement your own synced property.

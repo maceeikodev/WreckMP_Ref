@@ -2,7 +2,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace WreckMP_Ref
+namespace WreckAPI
 {
     /// <summary>
     /// An object used to read data from the event body
